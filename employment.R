@@ -1,12 +1,11 @@
 ## Syntax to prepare unemployment data by county for Puerto Rico
 library(readr)
 library(dplyr)
-library(tidyr)
 library(dygraphs)
 
 
 # Set the working directory to location of data
-#etwd("~/MediaFire/Aplicaciones/desempleo")
+#setwd("~/MediaFire/Aplicaciones/desempleo")
 
 # Import the data
 data <- read_tsv("la.data.46.PuertoRico.txt")
